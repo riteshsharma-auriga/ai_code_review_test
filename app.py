@@ -10,7 +10,6 @@ def hello_world():
     """
     return 'Hello, World! This is my first Flask application.'
 
-# This block ensures the application runs only if the script is executed directly (not imported).
 if __name__ == '__main__':
     # Run the application in debug mode for easier development
     app.run(debug=True)
