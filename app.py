@@ -1,7 +1,5 @@
 from flask import Flask
 
-# Create an instance of the Flask class
-# The argument __name__ is a special Python variable that holds the name of the current module.
 app = Flask(__name__)
 
 # The @app.route('/') decorator associates the URL '/' (the root) with the function immediately below it.
